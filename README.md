@@ -1,2 +1,2 @@
 # HTML
-This folder contains the exercises from HTML playlist of Bro-Code. This is purely for learning purposes.
+This folder contains exercises from HTML playlist of BroCode from YouTube. This is purely for learning purposes.
