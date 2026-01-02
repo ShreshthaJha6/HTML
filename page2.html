@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Page 2</title>
+    </head>
+    <body>
+        <h1>This is page 2</h1>
+        <p>
+            <a href = "mailto:lorenempsum@gmail.com">
+                email me here. 
+            </a>
+        </p>
+        <!--image-->
+        <p>Image directly from the folder</p>
+        <img src="cat.png" alt="image from folder" title="Cat1" height = "100px" width = "200px">
+        <hr>
+        <p>Image from the image folder</p>
+        <img src = "Images/cat.png" title = "cat2"alt = "image from images folder" height = "100px" width = "150px">
+        <hr>
+        <p>image as hyperlink</p>
+        <a href="https://en.wikipedia.org/wiki/Kitten" target="_blank">
+            <img src = "Images/cat.png" alt = "image link to wikipedia" title = "cat link" height = "100px" width = "150px">
+        </a>
+        <!--add mp3 file to your website-->
+        <p>Audio</p>
+        <audio controls autoplay muted loop>
+            <source src="fav_song.mp3" type="audio/mpeg">
+            browser does not support audio format.
+        </audio>
+        <br>
+        <!--add video element-->
+        <video controls autoplay loop>
+            <source src = "video.webm" type="video/webm">
+            browser does not support video format.
+        </video>
+        <br>
+        <!--text formatting-->
+        <p>This is normal text</p>
+        <p><b>This is bold text</b></p>
+        <p><i>This is italic text</i></p>
+        <p><u>This is underlined text</u></p>
+        <p><mark>This is marked text</mark></p>
+        <p><small>This is small text</small></p>
+        <p><strong>This is strong text</strong></p>
+        <p><em>This is emphasized text</em></p>
+        <p>This is <sub>subscript text</sub></p>
+        <p>This is <sup>superscript text</sup></p>
+        <p>This is <del>deleted text</del></p>
+        <p> This is <ins>inserted text</ins></p>
+        <br>
+        <h1>LISTS IN HTML</h1>
+        <!--unordered list-->
+        <h4>unordered list</h4>
+        <ul>
+            <li>eggs</li>
+            <li>ketchup</li>
+            <li>bread</li>
+            <li>butter</li>
+            <li>chillies</li>
+            <li>onion</li>
+            <li>salt</li>
+        </ul>
+        <!--ordered list-->
+        <h4>ordered list</h4>
+        <ol type="A">
+            <li>breakfast</li>
+                <ul>
+                    <li>omlette</li>
+                    <li>sandwich</li>
+                </ul>
+            <li>lunch</li>
+            <li>snacks</li>
+            <li>dinner</li>
+        </ol>
+        <!--description list-->
+        <h4>description list</h4>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Adds structure to a webpage</dd>
+            <dt>CSS</dt>
+            <dd>Adds style to a webpage</dd>
+            <dt>JavaScript</dt>
+            <dd>Adds function to a webpage</dd>
+        </dl>
+        <h4>Tables in HTML</h4>
+        <h5>Store hours</h5>
+        <table bgcolor="black" width="700px">
+            <tr bgcolor="grey">
+                <th width="100px">Sunday</th>
+                <th width="100px">Monday</th>
+                <th width="100px">Tuesday</th>
+                <th width="100px">Wednesday</th>
+                <th width="100px">Thursday</th>
+                <th width="100px">Friday</th>
+                <th width="100px">Saturday</th>
+            </tr>
+            <tr bgcolor="lightgray" align="center">
+                <td>Closed</td>
+                <td>9-5</td>
+                <td>9-5</td>
+                <td>9-5</td>
+                <td>9-5</td>
+                <td>9-5</td>
+                <td>Closed</td>
+            </tr>
+        </table>
+    </body>
+</html>
